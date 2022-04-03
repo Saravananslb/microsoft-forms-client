@@ -1,0 +1,115 @@
+.form-bar-container {
+    display: grid;
+    position: relative;
+    grid-template-rows: 1fr 2fr 6fr 1fr;
+    background-color: #f3f2f1;
+}
+
+.form-card-container {
+    /* background-color: rgba(228, 228, 228, 0.678); */
+    padding: 20px;
+}
+
+.form-card-container1 {
+    padding: 30px;
+}
+
+.recent-card {
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.recent-card img:hover {
+    border: 1px solid #202124;
+}
+
+.new-card-container img:hover {
+    border: 1px solid #202124;
+    cursor: pointer;
+}
+
+.new-card-container img {
+    width: 144px;
+    height: 84px;
+}
+
+.subject-container {
+    color: #202124;
+    font-weight: 600;
+    font-size: x-large;
+    position: relative;
+    top: 10px;
+    margin-left: 50px;
+}
+
+.user-mail-img {
+    border-radius: 50%;
+}
+
+.mail-body-container {
+    position: relative;
+    top: 20px;
+    display: flex;
+}
+
+.sender-name {
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: .975rem;
+    letter-spacing: .2px;
+    color: #202124;
+    line-height: 20px;
+}
+
+.to-list {
+    opacity: 0.7;
+    font-size: 13px;
+    position: relative;
+    top: -8px;
+}
+
+.mail-body-container div {
+    position: relative;
+    margin-left: 10px;
+}
+
+.send-date-time {
+    float: right;
+    margin-right: 10px;
+}
+
+.mail-display-header2 {
+    flex-grow: 1;
+}
+
+.mail-display-header3 {
+    font-size: small;
+}
+
+.mail-text-container {
+    position: relative;
+    top: 20px;
+    padding: 20px;
+}
+
+.mail-display-footer {
+    padding: 10px;
+}
+
+.mail-display-footer button{
+    padding: 4px 15px 4px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ffffff;
+    margin-left: 10px;
+    color: #202124;
+}
+
+.mail-display-footer button img {
+    opacity: 0.4;
+}
+
+.mail-display-footer button span{
+    margin-left: 10px;
+    position: relative;
+    top: -5px;
+}

@@ -1,0 +1,39 @@
+.header-container {
+    position: relative;
+    background-color: #03787C;
+    /* top: 10px; */
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 2fr 1fr;
+}
+
+.search-text {
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+    background-color: #eaeef1;
+    border: none;
+}
+
+.search-form {
+    background-color: #eaeef1;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+}
+
+.search-container {
+    padding: 5px;
+}
+
+.search-form svg {
+    position: relative;
+    /* top: 10px; */
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.banner-header {
+    text-align: center;
+    color: #ffffff;
+}

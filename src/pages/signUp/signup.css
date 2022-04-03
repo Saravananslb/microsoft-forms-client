@@ -1,0 +1,38 @@
+.signup-container {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.signup-container-inside form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-container-inside form, label, button, span {
+    padding: 10px;
+}
+
+.signup-container-inside button {
+    margin-top: 10px;
+    background-color: #0078D7;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.signup-container-inside div {
+    font-size: larger;
+}
+
+.error {
+    color: red
+}
+
+.signup-container-inside button :hover {
+    background-color: #044880;
+}
+
+.signup-container-inside form input {
+    padding: 10px;
+    width: 200%;
+}

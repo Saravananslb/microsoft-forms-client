@@ -1,0 +1,19 @@
+.mail-container {
+    display: grid;
+    grid-template-columns: 0.5fr 3fr;
+}
+
+.mail-list-show {
+    position: relative;
+    top: 20px;
+}
+
+.mail-list-show1 {
+    position: relative;
+    top: 5px;
+}
+
+.mail-list-show2 {
+    position: relative;
+    top: 30px;
+}
